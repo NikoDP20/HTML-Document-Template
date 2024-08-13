@@ -2,7 +2,7 @@
 Welcome to the HTML Document Template repository! This repository contains a simple, yet highly effective, HTML document template that you can use as an input for HTML to PDF conversion. The template is designed to ensure that your output PDF will be perfectly formatted without any issues.
 ## Features
 - **Clean and Simple Layout:** The template is structured to provide a professional appearance in both HTML and PDF formats.
-- **Cross-Compatible:** Tested to work seamlessly with popular HTML to PDF converters like `wkhtmltopdf`, `Puppeteer`, and others.
+- **Cross-Compatible:** Tested to work seamlessly with popular HTML to PDF converters like `wkhtmltopdf` and others.
 - **Error-Free Conversion:** Ensures that your PDF output will maintain consistent formatting, eliminating common issues such as misaligned text, missing elements, or distorted layouts.
 ## Usage
 1. **Download the Template:** Clone the repository or download the template.html file you want directly directly.
