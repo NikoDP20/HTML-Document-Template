@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <style>
+            table{width: 100%; border-collapse:collapse; height: 100%; border: 1px solid black;font-size: 12px;background-color: #Dcddde;}
+            table td{line-height:15px;padding-left:15px;}
+        </style>
+    </head>
+<body>
+    <Table border="1">
+        <tr height="130px" style="background-color: #004165;color:#404545;text-align:center;font-size:1.2rem; font-weight:600;color: #ffffff;">
+            <td colspan='6'><p>Annex1</p>
+                <p>THE FRAMEWORK AGREEMENT ${consumerCompany} - ${supplierCompany}</p>
+                <p> ID Number: ${idCode}</p>
+            </td>
+        </tr>
+        <tr>
+            <td width="10%">1.</td>
+            <td width="20%">Domain</td>
+            <td width="20%">${domain}</td>
+            <td width="10%">2.</td>
+            <td width="20%">start date</td>
+            <td width="20%">${startDate}</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Description of service</td>
+            <td colspan='4' style="font-size: 8px; font-weight: bold;">
+                <p>Consultant name and rows</p>
+                <p>- ${lastName}, ${firstName} - ${jobRole}</p>
+                <p>Short summary of role</p>
+                <p>- ${jobSummary}</p>
+            </td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Assignment Type</td>
+            <td>${assignmentType}</td>
+            <td>5.</td>
+            <td>End Date</td>
+            <td>${endDate}</td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>Activity Location</td>
+            <td>${activityLocation}</td>
+            <td>7.</td>
+            <td>Payment Terms</td>
+            <td>${paymentTerms}</td>
+        </tr>
+         <tr height="100px">
+            <td>8.</td>
+            <td>Maximum Number of Days</td>
+            <td style="font-size: 10px; font-weight: bold;">
+                <p>- ${lastName}, ${firstName}</p>
+                <p>- ${maxNumDays}</tp>
+            </td>
+            <td>9.</td>
+            <td>Daily Rate (Ex VAT)</td>
+            <td style="font-size: 10px; font-weight: bold;"><p>- ${lastName}, ${firstName}</p><p>- ${dayRateExVat}<p></td>
+         </tr>
+         <tr>
+            <td>10.</td>
+            <td>Maximum Financial Commitmen</td>
+            <td>${currencyCode} ${maxFinancialCommit}</td>
+            <td>11.</td>
+            <td>Expenses</td>
+            <td>${expenses}</td>
+        </tr>
+         <tr>
+            <td>12.</td>
+            <td>Consumer Contact</td>
+            <td>${consumerContact}</td>
+            <td>13.</td>
+            <td>Supplier Contact</td>
+            <td>${supplierContact}</td>
+         </tr>
+         <tr>
+            <td>14.</td>
+            <td colspan="5" style="font-size: 0.8rem; font-weight: bold;">
+                <p>Information message<span style="color: #822433;"> highlited message</span></p>
+                <p>Name/Buisness</p>
+                <p>building</p>
+                <p>Road</p>
+                <p>Postcode/Zipcode</p>
+                <p>country</p>
+                <p>Email:<span style="background-color: #9dbcb0;">template@email.com</span></p>
+            </td>
+        </tr>
+         <tr height="40px" style="text-align: center;">
+            <td colspan="3">FOR ${consumerCompany}</td>
+            <td colspan="3">FOR ${supplierCompany}</td>
+         </tr>
+         <tr>
+            <td colspan="3"><p>Date</p></td>
+            <td colspan="3"><p>Date</p></td>
+         </tr>
+         <tr>
+            <td colspan="3">
+                <p>Name:</p>
+                <p>.</p> 
+            </td>
+            <td colspan="3">
+                <p>Name:</p>
+                <p>.</p> 
+            </td>
+        </tr>
+         <tr height="100px">
+            <td colspan="3">
+                <p>Signature</p>
+                <p>.</p>
+                <p>.</p>
+            </td>
+            <td colspan="3">
+                <p>Signature</p>
+                <p>.</p>
+                <p>.</p>
+            </td>
+        </tr>
+    </Table>
+</body>
+</html>
